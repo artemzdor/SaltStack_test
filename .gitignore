@@ -103,3 +103,13 @@ venv.bak/
 # mypy
 .mypy_cache/
 /docker_src/websocket_chat/
+/test/docker-formula/
+Будет удалено .idea/.gitignore
+Будет удалено .idea/SaltStack_test.iml
+Будет удалено .idea/codeStyles/
+Будет удалено .idea/dbnavigator.xml
+Будет удалено .idea/inspectionProfiles/
+Будет удалено .idea/misc.xml
+Будет удалено .idea/modules.xml
+Будет удалено .idea/vcs.xml
+
