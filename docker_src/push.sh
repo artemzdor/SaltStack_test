@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export DOCKER_URL=asfree/test_erlang
+export DOCKER_URL=asfree/test_erlang:latest
 
 echo "Docker Push"
 

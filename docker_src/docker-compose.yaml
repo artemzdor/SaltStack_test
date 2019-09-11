@@ -4,7 +4,7 @@ services:
 
   test_erlang:
     container_name: test_erlang
-    image: asfree/test_erlang
+    image: asfree/test_erlang:latest
 
     ports:
       - 5555:8080

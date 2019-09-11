@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 export GIT_CLONE=https://github.com/antibi0tic/websocket_chat.git
-export DOCKER_URL=asfree/test_erlang
+export DOCKER_URL=asfree/test_erlang:latest
 
 echo "Git Clone: websocket_chat"
 
