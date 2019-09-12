@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+echo "Start Build"
+
 export GIT_CLONE=https://github.com/antibi0tic/websocket_chat.git
 export DOCKER_URL=asfree/test_erlang:latest
 

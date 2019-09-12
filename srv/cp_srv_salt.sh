@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-sudo cp salt /srv/salt
+sudo cp -r ./salt /srv

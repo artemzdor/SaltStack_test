@@ -1,7 +1,7 @@
 
 {% set name = "websocket_chat" %}
 
-docker-up:
+docker-down:
   docker_container.stopped:
     - names:
       - {{ name }}

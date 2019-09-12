@@ -13,3 +13,4 @@ sed -i '6c\    socket = new WebSocket("ws://" + location.host + "/websocket")' $
 erl -noshell -pa _build/default/lib/cowboy/ebin/ -pa _build/default/lib/cowlib/ebin/ -pa _build/default/lib/ranch/ebin/ -pa _build/default/lib/websocket_chat/ebin/ -pa _build/default/lib/jsx/ebin/ -s websocket_chat_app fast_start
 
 echo "Stop: Websocket Chat"
+
