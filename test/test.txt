@@ -1,0 +1,10 @@
+
+
+
+
+sudo salt '*' state.apply sl
+sudo salt "minion1" state.sls FILENAME
+
+
+
+sudo salt '*' grains.items
