@@ -1,6 +1,5 @@
 {% set oscodename = salt.grains.get("oscodename") %}
 {% set osarch = salt.grains.get("osarch") %}
-#{% set url_gpg = "https://download.docker.com/linux/ubuntu/gpg" %}
 
 docker-remove-old:
   pkg.removed:
@@ -37,6 +36,7 @@ docker-api-py-install:
 
 
 
+#{% set url_gpg = "https://download.docker.com/linux/ubuntu/gpg" %}
 #{% set source_hash = salt['cmd.shell']('echo "md5=`curl -s "{}" | md5sum | cut -c -32`"'.format(url_gpg)) %}
 #
 #get-gpg:
